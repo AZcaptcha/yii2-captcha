@@ -1,10 +1,8 @@
 Yii2 Captcha
 ================
-[![PHP version](https://badge.fury.io/ph/jumper423%2Fyii2-captcha.svg)](https://badge.fury.io/ph/jumper423%2Fyii2-captcha)
 
-Распознавание капч для всех популярных сервисов [rucaptcha.com](http://infoblog1.ru/goto/rucaptcha), 2captcha.com, pixodrom.com, captcha24.com, socialink.ru, anti-captcha.com
+Распознавание капч для всех популярных сервисов  [azcaptcha.com](http://azcaptcha.com ) [rucaptcha.com], 2captcha.com, pixodrom.com, captcha24.com, socialink.ru, anti-captcha.com
 
-[Вебсайт](http://infoblog1.ru/learn/cms/yii/raspoznavanie-kapch-na-yii2)
 
 Особенности
 ------------
@@ -19,13 +17,13 @@ Yii2 Captcha
 Либо запустить
 
 ```
-php composer.phar require --prefer-dist jumper423/yii2-captcha "*"
+php composer.phar require --prefer-dist Thomanphan/yii2-captcha "*"
 ```
 
 или добавить
 
 ```
-"jumper423/yii2-captchar": "*"
+"Thomanphan/yii2-captchar": "*"
 ```
 
 в файл `composer.json`.
@@ -36,8 +34,8 @@ php composer.phar require --prefer-dist jumper423/yii2-captcha "*"
 ```php
 'components' => [
     'captcha' => [
-        'class' => 'jumper423\Captcha',
-        'pathTmp' => '@app/captcha',
+        'class' => 'Thomanphan\yii2-captcha',
+        'pathTmp' => '@app/yii2-captcha',
         'apiKey' => '42eab4119020dbc729f657fef270r546',
     ],
 ],
