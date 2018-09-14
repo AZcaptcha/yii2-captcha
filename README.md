@@ -1,4 +1,4 @@
-Yii2 Captcha
+Yii2 Captcha - AZcaptcha.com
 ================
 
 Распознавание капч для всех популярных сервисов  [azcaptcha.com](http://azcaptcha.com ) [rucaptcha.com], 2captcha.com, pixodrom.com, captcha24.com, socialink.ru, anti-captcha.com
@@ -17,7 +17,7 @@ Yii2 Captcha
 Либо запустить
 
 ```
-php composer.phar require --prefer-dist Thomanphan/yii2-captcha "*"
+php composer.phar require --prefer-dist AZcaptcha/yii2-captcha "*"
 ```
 
 или добавить
@@ -34,7 +34,7 @@ php composer.phar require --prefer-dist Thomanphan/yii2-captcha "*"
 ```php
 'components' => [
     'captcha' => [
-        'class' => 'Thomanphan\yii2-captcha',
+        'class' => 'AZcaptcha\yii2-captcha',
         'pathTmp' => '@app/yii2-captcha',
         'apiKey' => '42eab4119020dbc729f657fef270r546',
     ],
